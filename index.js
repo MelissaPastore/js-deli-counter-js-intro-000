@@ -18,17 +18,7 @@ function currentLine (currLine) {
     return 'The line is currently empty.'
   }
   let greeting = 'The line is currently: '
-  
-  currLine.forEach((person, index) => greeting +=`${index+1}. ${currPerson}`)
-  
-  // for(let i=0; i<currLine.length; i++){
-  //   let currPerson = currLine[i];
-  //   if(i === currLine.length-1){
-  //     greeting += `${i+1}. ${currPerson}`
-  //   }
-  //   else {
-  //     greeting += `${i+1}. ${currPerson}, `
-  //   }
-  // }
+  currLine.forEach()
+
   return greeting; 
 }
