@@ -26,6 +26,6 @@ function currentLine (currLine) {
     else {
       greeting += `${i+1}. ${currPerson}, `
     }
-  return greeting; 
   }
+  return greeting; 
 }
